@@ -3,14 +3,13 @@ use strict;
 use vars qw($VERSION @ISA @EXPORT_OK %EXPORT_TAGS $errstr $BURST_METHOD @BURST_METHODS %BURST_METHOD $DEBUG);
 @ISA = qw/Exporter/;
 @EXPORT_OK = qw/pdf_burst pdf_burst_CAM_PDF pdf_burst_PDF_API2 pdf_burst_pdftk/;
-$VERSION = sprintf "%d.%02d", q$Revision: 1.18 $ =~ /(\d+)/g;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.19 $ =~ /(\d+)/g;
 %EXPORT_TAGS  = ( all => \@EXPORT_OK );
 use Exporter;
 use File::Which;
 use Carp;
 sub errstr;
 sub errstr { $errstr =$_[0]; 1 }
-
 sub debug { $DEBUG and warn(" # ".__PACKAGE__.", @_\n"); 1 }
 
 %BURST_METHOD = (
