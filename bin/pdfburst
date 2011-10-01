@@ -37,8 +37,7 @@ exit;
 
 
 sub usage {
-   return qq{
-$0 - burst pdf into individual page files
+   return qq{$0 - burst pdf into individual page files
 
 OPTION FLAGS
 
@@ -71,9 +70,7 @@ LEOCHARRE::CLI
 AUTHOR
 
 Leo Charre leocharre at cpan dot org
-   
-   
-   };
+};
 
 
 }

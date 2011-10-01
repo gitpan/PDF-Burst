@@ -158,7 +158,31 @@ was never meant to. No support is planned for non POSIX operating environments.
 
 If you use method pdftk, I suggest always cleaning up after bursting, or using a temporary directory.
 
+=head1 PREREQUISITES
 
+=over 4
+
+=item CAM::PDF
+
+=item Carp
+
+=item Cwd
+
+=item Exporter
+
+=item File::Copy
+
+=item File::Which
+
+=item LEOCHARRE::CLI
+
+=item LEOCHARRE::Dir
+
+=item PDF::API2
+
+=item Test::Simple
+
+=back
 
 =head1 SEE ALSO
 

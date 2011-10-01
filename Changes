@@ -1,3 +1,7 @@
+2011-10-01
+
+   * Updated documentation to explicitly state dependencies.
+
 2009-05-27 14:20  cvs
 
 	* lib/PDF/Burst.pm, lib/PDF/Burst.pod, t/10_problemfile.dev.t,
